@@ -16,9 +16,9 @@ const data = [
     {id:3, thumb:'/assets/t6.png', profile:'/assets/3.png', title:"Bulbuli|coke studio Bangla|season one|Ritu Raj X Nandita", name:"Coke studio Bangla", img:'/assets/verified.png', text:"1.5M views  2 days ago"},
     {id:3, thumb:'/assets/t7.png', profile:'/assets/3.png', title:"Bulbuli|coke studio Bangla|season one|Ritu Raj X Nandita", name:"Coke studio Bangla", img:'/assets/verified.png', text:"1.5M views  2 days ago"},
     {id:3, thumb:'/assets/t3.png', profile:'/assets/3.png', title:"Bulbuli|coke studio Bangla|season one|Ritu Raj X Nandita", name:"Coke studio Bangla", img:'/assets/verified.png', text:"1.5M views  2 days ago"},
-    {id:3, thumb:'/assets/t3.png', profile:'/assets/3.png', title:"Bulbuli|coke studio Bangla|season one|Ritu Raj X Nandita", name:"Coke studio Bangla", img:'/assets/verified.png', text:"1.5M views  2 days ago"},
-    {id:3, thumb:'/assets/t3.png', profile:'/assets/3.png', title:"Bulbuli|coke studio Bangla|season one|Ritu Raj X Nandita", name:"Coke studio Bangla", img:'/assets/verified.png', text:"1.5M views  2 days ago"},
-    {id:3, thumb:'/assets/t3.png', profile:'/assets/3.png', title:"Bulbuli|coke studio Bangla|season one|Ritu Raj X Nandita", name:"Coke studio Bangla", img:'/assets/verified.png', text:"1.5M views  2 days ago"},
+    {id:3, thumb:'/assets/t1.png', profile:'/assets/3.png', title:"Bulbuli|coke studio Bangla|season one|Ritu Raj X Nandita", name:"Coke studio Bangla", img:'/assets/verified.png', text:"1.5M views  2 days ago"},
+    {id:3, thumb:'/assets/t.png', profile:'/assets/3.png', title:"Bulbuli|coke studio Bangla|season one|Ritu Raj X Nandita", name:"Coke studio Bangla", img:'/assets/verified.png', text:"1.5M views  2 days ago"},
+    {id:3, thumb:'/assets/t2.png', profile:'/assets/3.png', title:"Bulbuli|coke studio Bangla|season one|Ritu Raj X Nandita", name:"Coke studio Bangla", img:'/assets/verified.png', text:"1.5M views  2 days ago"},
 ]
 
 app.get('/videos', (req, res)=>{
