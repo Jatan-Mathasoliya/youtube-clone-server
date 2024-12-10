@@ -2,8 +2,6 @@ import express from 'express'
 import cors from 'cors'
 
 const app = express();
-const port = 3000;
-
 app.use(cors());
 
 app.use('/assets', express.static('./public/assets'));
@@ -27,6 +25,7 @@ app.get('/videos', (req, res)=>{
     res.json(data)
 })
 
-app.listen(port, ()=>{
-    console.log(`server running on ${port}`)
-})
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+  console.log(`Server running on port ${port}`);
+});
